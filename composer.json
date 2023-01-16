@@ -1,0 +1,17 @@
+{
+    "name": "developer/symfony-reproducer-40642",
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vasiliy Kurdin",
+            "email": "VKurdin@awardwallet.com"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "~4.4.49"
+    }
+}

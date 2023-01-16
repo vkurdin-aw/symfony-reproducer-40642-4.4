@@ -1,0 +1,9 @@
+version: '2.4'
+
+services:
+  php:
+    image: composer:lts
+    working_dir: /app
+    volumes:
+      - ./:/app
+    entrypoint: ["/app/entrypoint.sh"]
